@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="apitesting.ApiTestsGET">
+        <methods>
+          <include name="getCreateNewDeckOfCards01"/>
+          <include name="getDrawOneOrMoreCards03"/>
+          <include name="getDrawOneOrMoreCards04"/>
+          <include name="getCreateNewDeckOfCards02"/>
+          <include name="getDrawOneOrMoreCards05"/>
+          <include name="getDrawOneOrMoreCards06"/>
+          <include name="getDrawOneOrMoreCards07"/>
+          <include name="getDrawOneOrMoreCards08"/>
+          <include name="getDrawOneOrMoreCards09"/>
+          <include name="getDrawOneOrMoreCards10"/>
+        </methods>
+      </class> <!-- apitesting.ApiTestsGET -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
